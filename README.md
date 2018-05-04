@@ -12,6 +12,9 @@ Windows
 6- python backdoorfun.py
 # Screenshot
 ![alt text](https://github.com/abbasjahanbakhsh/backdoorfun/blob/master/BF.PNG)
+# ByPass AV
+![alt text](https://github.com/abbasjahanbakhsh/backdoorfun/blob/master/bf2.PNG)
+![alt text](https://github.com/abbasjahanbakhsh/backdoorfun/blob/master/bypassAV.PNG)
 # Disclaimer
 This program must be used for legal purposes! I am not responsible for anything you do with it.
 # Contact
