@@ -11,8 +11,11 @@ Windows
 5- git clone https://github.com/abbasjahanbakhsh/backdoorfun.git <br>
 6- python backdoorfun.py
 # Screenshot
+
 ![alt text](https://github.com/abbasjahanbakhsh/backdoorfun/blob/master/BF.PNG)
 # ByPass AV
+
+Virus Total Link https://bit.ly/2jus9Q8 <br>
 ![alt text](https://github.com/abbasjahanbakhsh/backdoorfun/blob/master/bf2.PNG)
 ![alt text](https://github.com/abbasjahanbakhsh/backdoorfun/blob/master/bypassAV.PNG)
 # Disclaimer
