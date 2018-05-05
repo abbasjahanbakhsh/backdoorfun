@@ -1,6 +1,6 @@
 # BackdoorFun
 ![alt text](https://github.com/abbasjahanbakhsh/backdoorfun/blob/master/coollogo_com-302361167.gif)
-Backdoorfun is a backdoor which you can keep accessing. Backdoorfun gives you a reverse shell. In order to create agent,  you should run backdoorfun on windows and for listenung you can use both windows and linux. Anti viruses can't detect the agent which is created by backdoorfun.
+Backdoorfun is a backdoor which you can keep accessing. Backdoorfun gives you a reverse shell. In order to create an agent, you should run Backdoorfun on windows and for listening you can use both Windows and Linux. Antiviruses can not detect the agent which is created by Backdoorfun.
 # victim
 Windows
 # Installation
