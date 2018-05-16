@@ -29,7 +29,7 @@ if platform.system() == "Linux" :
 	os.system("clear")
 	os1="clear"
 print banner	
-print "1-Generate Agent\r\n\r\n2-Listener\r\n"
+print "1-Generate Agent (Reverse Shell)\r\n\r\n2-Listener\r\n"
 def dell(name):
 		rmpath=os.getcwd()+"\\build"
 		shutil.rmtree(rmpath)
@@ -46,8 +46,8 @@ def dell(name):
 while True:
 	mod=raw_input("BackdoorFun>")
 	if mod == "1" :
-		print "insert rhost:rport(e.g 192.168.1.1:8585)\r\n"
-		inp=raw_input("insert Rhost:Rport : ")
+		print "insert LHOST:LPORT(e.g 192.168.1.1:8585)\r\n"
+		inp=raw_input("insert LHOST:LPORT : ")
 		nfile=raw_input("insert file name:")
 		pyfile=nfile+".py"
 		inp=inp.split(":")
