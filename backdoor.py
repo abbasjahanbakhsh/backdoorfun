@@ -7,8 +7,6 @@ import platform
 import os
 import shutil
 banner="""
-
-
 ______            _       _                   ______            
 | ___ \          | |     | |                  |  ___|           
 | |_/ / __ _  ___| | ____| | ___   ___  _ __  | |_ _   _ _ __   
@@ -18,7 +16,6 @@ ______            _       _                   ______
                                                                 
                                                                 
 [+]Author : abbas jahanbakhsh (abbasmain92@gmail.com)
-
 """
 os1=""
 if platform.system() == "Windows" :
@@ -30,6 +27,9 @@ if platform.system() == "Linux" :
 	os1="clear"
 print banner	
 print "1-Generate Agent (Reverse Shell)\r\n\r\n2-Listener\r\n"
+out=os.getcwd()+"\\out\\"
+if not os.path.exists(out):
+    os.makedirs(out)
 def dell(name):
 		rmpath=os.getcwd()+"\\build"
 		shutil.rmtree(rmpath)
